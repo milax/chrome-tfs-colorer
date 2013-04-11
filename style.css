@@ -1,0 +1,102 @@
+.tbTileContent:before
+{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 17px;
+    bottom: 0;
+    right: 0;
+    }
+    .tbTileContent .photo
+    {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 25px;
+        top: -1px;
+    }
+    .tbTileContent.PavelN .photo
+    {
+        background: url('chrome-extension://__MSG_@@extension_id__/img/team/Pavel_N_sm.png') 0 0 no-repeat;
+    }
+    .tbTileContent.EugeneK .photo
+    {
+        background: url('chrome-extension://__MSG_@@extension_id__/img/team/Eugene_K_sm.png') 0 0 no-repeat;
+    }
+    .tbTileContent.ElenaP .photo
+    {
+        background: url('chrome-extension://__MSG_@@extension_id__/img/team/Elena_P_sm.png') 0 0 no-repeat;
+    }
+    .tbTileContent.DmitriyK .photo
+    {
+        background: url('chrome-extension://__MSG_@@extension_id__/img/team/Dmitrij_K_sm.png') 0 0 no-repeat;
+    }
+    .tbTileContent.DmitriyM .photo
+    {
+        background: url('chrome-extension://__MSG_@@extension_id__/img/team/Dmitrij_M_sm.png') 0 0 no-repeat;
+    }
+
+.creFE {
+    background: #f9d8d7 !important;
+}
+
+.creBE {
+    background: #b6d4b8 !important;
+}
+.creTodo {
+    border-left: 6px solid rgb(231, 151, 151) !important;
+}
+.creInProgress {
+    border-left: 6px solid rgb(238, 212, 131) !important;
+}
+.creDone {
+    border-left: 6px solid rgb(129, 179, 147) !important;
+}
+.creBug:after {
+    content: "";
+    position: absolute;
+    background: url('chrome-extension://__MSG_@@extension_id__/img/bug.png') 0 0 no-repeat;
+    right: -2px;
+    top: -2px;
+    width: 16px;
+    height: 16px;
+}
+.creBlocked {
+    
+}
+.creBlocked:hover:after
+{
+    display: none;
+}
+.creBlocked:after
+{
+    content: 'BLOCKED';
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 0, 0, 0.5);
+}
+.creMineTask {
+    font-weight: bold !important;
+    
+}
+.creMineTask.creBE {
+    box-shadow: 0 0 2px 2px rgba(15, 132, 3, 0.6);
+}
+
+.creMineTask.creFE {
+    box-shadow: 0 0 2px 2px rgba(255, 0, 0, 0.5);
+}
+.tbTileContent .onTileEditTextDiv.hover {
+    cursor: pointer;
+    background: transparent;
+    color: rgb(0, 122, 204);
+}
+.tbTileContent .witTitle:hover {
+    color: rgb(0, 122, 204);
+}

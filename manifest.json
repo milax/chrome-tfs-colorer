@@ -1,0 +1,21 @@
+{
+    "name": "TFS 2012 Creuna highlighter",
+    "manifest_version": 2,
+    "version": "0.1",
+    "description": "TFS 2012 Creuna highlighter",
+    "content_scripts":[
+        {
+            "matches": ["https://creunadk.visualstudio.com/*/_boards"],
+            "css": ["style.css"],
+            "js": ["jquery.js", "script.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "img/bug.png",
+        "img/team/Pavel_N_sm.png",
+        "img/team/Eugene_K_sm.png",
+        "img/team/Elena_P_sm.png",
+        "img/team/Dmitrij_K_sm.png",
+        "img/team/Dmitrij_M_sm.png"
+    ]
+}
